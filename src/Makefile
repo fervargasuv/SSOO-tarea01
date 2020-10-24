@@ -15,4 +15,5 @@ $(OBJ_DIR)/%.o : $(SRC_DIR)/%.c
 .PHONY : clean
 clean:
 	@rm -r $(OBJ_DIR)
+	@rm $(TARGET)
 
