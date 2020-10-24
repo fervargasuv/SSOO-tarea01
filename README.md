@@ -1,4 +1,4 @@
-# SSOO-tarea01
+# Fernando Vargas 20.415.814-2 SSOO-tarea01
 Mi solucion se basa en tener la funcion main donde corre el codigo y printea los primeros mensajes "Programa hora ejecutandose. PID=xxxx. 
 Listo para recibir la señal SIGUSR1." para luego entrar en un ciclo infinito a la espera de la señal kill -s SIGUSR1 PID para pasar a la funcion "hora" donde se
 declaran las variables para obtener la fecha y hora del equipo y despues printearlas , luego vuelve al main a la espera de una señal que puede ser la anterior o la señal
